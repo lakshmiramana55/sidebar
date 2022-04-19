@@ -39,6 +39,7 @@ class Gaming extends Component {
       const response = await fetch(url, options)
       if (response.ok) {
         const data = await response.json()
+        console.log(data)
         await this.setState({dataArray: data.videos, status: true})
       }
     } catch {

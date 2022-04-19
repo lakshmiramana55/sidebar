@@ -53,6 +53,7 @@ class VideoCard extends Component {
     const response = await fetch(url, options)
     if (response.ok) {
       const responseData = await response.json()
+      console.log(responseData)
       const data = responseData.video_details
       const convertedData = {
         channel: data.channel,
