@@ -31,7 +31,7 @@ class Navbar extends Component {
                   <ListItems color={`${color}`} bgColor={`${hoverBgColor}`}>
                     <span className="nav-icons">
                       <HiHome size={20} />
-                    </span>{' '}
+                    </span>
                     <SpanEl>Home</SpanEl>
                   </ListItems>
                 </Link>
